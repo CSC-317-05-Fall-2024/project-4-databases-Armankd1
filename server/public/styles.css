@@ -1,0 +1,173 @@
+header{
+    background-image: url(images/Yerevan.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    h1{
+          line-height: 300px;
+          text-align: center;
+          color: #ffffff;
+          font-size: 50pt;
+          margin: 0px;
+          white-space: nowrap;
+    }
+  }
+  
+  nav {
+    color: #996666;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #8080ff;
+  }
+  body{
+    text-align: center;
+    background-color: bisque;
+    color: #996666;
+  }
+  .homeContainer{
+    background-color: bisque;
+    color: #996666;
+    text-align: center;
+    margin: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .section-text{
+      color: #996666;
+      margin: center;
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+  }
+  .attractions-container{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2%;
+    justify-content: space-evenly;
+  }
+  .Tsiternakaberd{
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    order: 1;
+    .ts-image{
+      order: 1;
+    }
+    .ts-text{
+      color: #996666;
+      margin-left: 5%;
+      order: 2;
+    }
+  }
+  .cascade{
+    order: 2;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    .c-image{
+      order: 1;
+    }
+    .c-text{
+      color: #996666;
+      margin-left: 5%;
+      order: 2;
+    }
+  }
+  
+  .opera{
+    order: 3;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    .o-image{
+      order: 1;
+    }
+    .o-text{
+      color: #996666;
+      margin-left: 5%;
+      order: 2;
+    }
+  }
+  .attraction-header{
+    font-size: x-large;
+  }
+  .attraction-text{
+    font-size: medium;
+  }
+  .restaurants{
+    background-color: bisque;
+    color: #996666;
+    display: grid;
+    grid-auto-rows: 350px;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 20px 100px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2%;
+  }
+  .restaurant-card{
+    border: 1px solid #996666;
+    background-color: beige;
+    text-align: center;
+  }
+  .form-container{
+    text-align: center;
+    color: #996666;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2%;
+    align-items: center;
+    justify-content: center;
+  }
+  .delete-button{
+    background-color: beige;
+    color: #000000;
+    border: none;
+    margin-right: auto;
+  }
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    height: 0.5em;
+    width: 400px;
+  }
+  
+  button   
+   {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    height: auto;
+    width: 60px;
+  }
+  footer {
+    border: 1px solid #996666;
+    background-color: beige;
+    height:30px;
+    color: #ffffff;
+    background-color: #8080ff;
+    text-align:right;
+  }

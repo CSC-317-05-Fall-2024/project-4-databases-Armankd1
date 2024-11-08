@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+    <head>
+        <title>YerevanRestaurants</title>
+        <link rel = "stylesheet" href= "styles.css"/>
+        <link rel = "icon" type="image/png" href="images/icon.svg">
+    </head>
+    <body>
+        <header id = "header"></header>
+        <nav id = "nav" class="navbar"></nav>
+        <div class = "restaurants">
+            <!--Adding the data of my restaurants, so it can be rendered dynamically, the data is stored in restaurants.js -->
+            <% for (let i = 0; i < restaurantData.length; i++) { %>
+                <div id="restaurant-<%= i %>" class = "restaurant-card" data-id = "<%= restaurantData[i].id %>">
+                  <img src="<%= restaurantData[i].photo %>" alt="<%= restaurantData[i].name %>"
+                  height="200";
+                  width="200"/>
+                  <p><%= restaurantData[i].name %></p>
+                  <p><%= restaurantData[i].address %></p>
+                  <p><%= restaurantData[i].phone %></p>
+                  <button class="delete-button" data-id="<%= restaurantData[i].id %>">X</button>
+                </div>
+              <% } %>            
+        </div>    
+        <footer id = "footer"></footer>
+        <script src="/scripts/restaurantCards.js"></script>
+        <script src="/scripts/header.js"></script>
+    </body>
+</html>
